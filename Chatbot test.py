@@ -1,18 +1,24 @@
-# Import necessary modules
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.llms import Ollama
 import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine
 import os
-import re  # for regex-based simple natural language parsing
+import re
+from dotenv import load_dotenv
 
 # Database connection details (used for MySQL integration)
-db_user = os.getenv('DB_USER', 'root')
-db_password = os.getenv('DB_PASSWORD', 'admin')
-db_host = os.getenv('DB_HOST', '127.0.0.1')
-db_port = os.getenv('DB_PORT', '3306')
-db_name = os.getenv('DB_NAME', 'churn')
+load_dotenv()
+db_user = os.getenv('DB_USER')
+db_password = os.getenv('DB_PASSWORD')
+db_host = os.getenv('DB_HOST')
+db_port = os.getenv('DB_PORT')
+db_name = os.getenv('DB_NAME')
+
+# Checking
+if None in [db_user, db_password, db_host, db_port, db_name]:
+    raise ValueError("One or more environment variables for database connection are not set")
+
 db_url = f"mysql+pymysql://{db_user}:{db_password}@{db_host}:{db_port}/{db_name}"
 
 # Create the database engine and import dataset
