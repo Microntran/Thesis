@@ -36,7 +36,7 @@ prompt = ChatPromptTemplate.from_messages(
         ("user", "Question: {question}")
     ]
 )
-# Build the best machine learning model based on binomial variable 'churn' and then execute it to predict churn rate.
+
 # Set up the Streamlit framework
 st.title('Langchain Chatbot With LLAMA3 model by Gabriele Ometo')
 
@@ -104,3 +104,5 @@ if st.session_state.messages and st.session_state.messages[-1]["role"] != "assis
             response = queryDB(prompt) 
             st.write(response)
             st.session_state.messages.append({"role": "assistant", "content": response})
+
+# Example of Prompt that I used in thesis: Build the best machine learning model based on binomial variable 'churn' and then execute it to predict churn rate.
