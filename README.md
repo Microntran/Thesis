@@ -5,4 +5,4 @@ This is my first project about **Artificial Intelligence** in CRM context. Moreo
 ## Structure of the Project
 There are two script files in **Python**, one for analysis done via [Traditional AI models](Trad-AI.ipynb) and the other for construction and analysis via [Generative AI](Chatbot-test.py).
 
-In the first analysis, I analyzed ![](Images/Traditional AI/EDA/Dataset.png)
+In the first analysis, I analyzed ![Image](Images/Traditional AI/EDA/Dataset.png)
