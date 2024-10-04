@@ -6,7 +6,8 @@ This is my first project about **Artificial Intelligence** in CRM context. Moreo
 There are two script files in **Python**, one for analysis done via [Traditional AI models](Trad-AI.ipynb) and the other for construction and analysis via [Generative AI](Chatbot-test.py).
 
 ## Traditional AI techniques:
-In the first analysis, dataset appeared like that: ![Dataset](https://github.com/user-attachments/assets/35f78923-8ea1-478a-a25c-f5a36d9d6a5b), then, after a **Data Preparation** (Data Cleaning + Feature Engineering) and an **Explorative Data Analysis (EDA)**, I analyzed customer churn using various methods:
+In the first analysis, dataset appeared like that: ![Dataset](https://github.com/user-attachments/assets/35f78923-8ea1-478a-a25c-f5a36d9d6a5b).
+Then, after a **Data Preparation** (Data Cleaning + Feature Engineering) and an **Explorative Data Analysis (EDA)**, I analyzed customer churn using various methods:
 * **Random Forest Classifier**: an ensemble model to enhance accuracy and reduce overfitting, showing the feature importance.
 ![Feature Importance RF](https://github.com/user-attachments/assets/e260912c-274c-4b42-ab32-0f64d7286bb6)
 
