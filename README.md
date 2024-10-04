@@ -6,7 +6,7 @@ This is my first project about **Artificial Intelligence** in CRM context. Moreo
 There are two script files in **Python**, one for analysis done via [Traditional AI models](Trad-AI.ipynb) and the other for construction and analysis via [Generative AI](Chatbot-test.py).
 
 ## Traditional AI techniques:
-In the first analysis, dataset appeared like that: ![Dataset](https://github.com/user-attachments/assets/35f78923-8ea1-478a-a25c-f5a36d9d6a5b).
+In the first analysis, dataset appeared like that: ![Dataset](https://github.com/user-attachments/assets/35f78923-8ea1-478a-a25c-f5a36d9d6a5b)
 Then, after a **Data Preparation** (Data Cleaning + Feature Engineering) and an **Explorative Data Analysis (EDA)**, I analyzed customer churn using various methods:
 * **Random Forest Classifier**: an ensemble model to enhance accuracy and reduce overfitting, showing the feature importance.
 ![Feature Importance RF](https://github.com/user-attachments/assets/e260912c-274c-4b42-ab32-0f64d7286bb6)
@@ -27,7 +27,7 @@ Below are the key results:
 ![Build the best machine learning model_1](https://github.com/user-attachments/assets/5fe69ee1-e558-47c4-83ab-ed824e1e7946) ![Build the best machine learning model_2](https://github.com/user-attachments/assets/b98ab09d-24be-492b-8849-fa15b57a3e65)
 
 ## Conclusions
-So, who won this AI showdown? Well, that depends on what you value most. If you are looking for precision, reliability, and those kinds of insights that make you look like a genius in the boardroom, traditional AI is still hard to beat. The Random Forests and logistic regressions we used in this project delivered solid results with clear explanations, which is something any data scientistor business leader-would appreciate. But if you're fortunate to work in one of those dynamic environments that forces one to think on the spot, accept rapid change, and perfect a great many what-if scenarios, then generative AI offers some serious benefits. It's imperfect but indisputably powerful, and there's a bright promise in store or its future-more so as the technology continues to mature. 
+So, who won this AI showdown? Well, that depends on what you value most. If you are looking for precision, reliability, and those kinds of insights that make you look like a genius in the boardroom, traditional AI is still hard to beat. The Random Forests and logistic regressions we used in this project delivered solid results with clear explanations, which is something any data scientist or business leader-would appreciate. But if you're fortunate to work in one of those dynamic environments that forces one to think on the spot, accept rapid change, and perfect a great many what-if scenarios, then generative AI offers some serious benefits. It's imperfect but indisputably powerful, and there's a bright promise in store or its future-more so as the technology continues to mature. 
 
 After all, this thesis did not compare two AI models but underlined strengths and weaknesses for two fundamentally different ways of doing problem-solving in AI. Traditional AI is akin to a well-crafted tool: highly effective in the right hands. Generative AI is more like a Swiss Army knife-versatile, full of potential, but still needing a bit more refinement to reach full potential.
 
