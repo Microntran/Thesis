@@ -23,6 +23,7 @@ The main aim was to come up with some important factors that cause customer chur
 In the second analysis, I chose **Llama 3.1** to build my Conversational Assistant because of its superior natural language understanding and context-based response generation. The success in getting Llama 3.1 to perform did not come in one fell swoop; it took numerous passes, one prompt at a time. This created a need for several iterations in fine-tuning prompts (**prompt engineering**).
 
 Below are the key results:
+![Churn Rate influenced by](https://github.com/user-attachments/assets/1d2b0502-6851-48db-966a-fb77135b5700)
 ![Extracting insights from dataset](https://github.com/user-attachments/assets/7668f69b-bb64-4529-9278-67ee512ac989)
 ![Build the best machine learning model_1](https://github.com/user-attachments/assets/5fe69ee1-e558-47c4-83ab-ed824e1e7946) ![Build the best machine learning model_2](https://github.com/user-attachments/assets/b98ab09d-24be-492b-8849-fa15b57a3e65)
 
