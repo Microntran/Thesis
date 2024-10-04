@@ -25,3 +25,8 @@ Below are the key results:
 ![Extracting insights from dataset](https://github.com/user-attachments/assets/7668f69b-bb64-4529-9278-67ee512ac989)
 ![Build the best machine learning model_1](https://github.com/user-attachments/assets/5fe69ee1-e558-47c4-83ab-ed824e1e7946) ![Build the best machine learning model_2](https://github.com/user-attachments/assets/b98ab09d-24be-492b-8849-fa15b57a3e65)
 
+## Conclusions
+So, who won this AI showdown? Well, that depends on what you value most. If you are looking for precision, reliability, and those kinds of insights that make you look like a genius in the boardroom, traditional AI is still hard to beat. The Random Forests and logistic regressions we used in this project delivered solid results with clear explanations, which is something any data scientistor business leader-would appreciate. But if you're fortunate to work in one of those dynamic environments that forces one to think on the spot, accept rapid change, and perfect a great many what-if scenarios, then generative AI offers some serious benefits. It's imperfect but indisputably powerful, and there's a bright promise in store or its future-more so as the technology continues to mature. 
+
+After all, this thesis did not compare two AI models but underlined strengths and weaknesses for two fundamentally different ways of doing problem-solving in AI. Traditional AI is akin to a well-crafted tool: highly effective in the right hands. Generative AI is more like a Swiss Army knife-versatile, full of potential, but still needing a bit more refinement to reach full potential.
+
